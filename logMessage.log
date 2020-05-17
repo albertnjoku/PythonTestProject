@@ -1,0 +1,29 @@
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:56127/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:56127
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56127 "POST /session HTTP/1.1" 200 831
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:56127/session/8f4be563de4f26ea0a91e555509ac6e5/url {"url": "http://www.python.org", "sessionId": "8f4be563de4f26ea0a91e555509ac6e5"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56127 "POST /session/8f4be563de4f26ea0a91e555509ac6e5/url HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:56127/session/8f4be563de4f26ea0a91e555509ac6e5/title {"sessionId": "8f4be563de4f26ea0a91e555509ac6e5"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56127 "GET /session/8f4be563de4f26ea0a91e555509ac6e5/title HTTP/1.1" 200 91
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:root:log message
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:56127/session/8f4be563de4f26ea0a91e555509ac6e5/element {"using": "name", "value": "q", "sessionId": "8f4be563de4f26ea0a91e555509ac6e5"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56127 "POST /session/8f4be563de4f26ea0a91e555509ac6e5/element HTTP/1.1" 200 102
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:56127/session/8f4be563de4f26ea0a91e555509ac6e5/element/0.5691193199544842-1/clear {"id": "0.5691193199544842-1", "sessionId": "8f4be563de4f26ea0a91e555509ac6e5"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56127 "POST /session/8f4be563de4f26ea0a91e555509ac6e5/element/0.5691193199544842-1/clear HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:56127/session/8f4be563de4f26ea0a91e555509ac6e5/element/0.5691193199544842-1/value {"text": "pycon", "value": ["p", "y", "c", "o", "n"], "id": "0.5691193199544842-1", "sessionId": "8f4be563de4f26ea0a91e555509ac6e5"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56127 "POST /session/8f4be563de4f26ea0a91e555509ac6e5/element/0.5691193199544842-1/value HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:56127/session/8f4be563de4f26ea0a91e555509ac6e5/element/0.5691193199544842-1/value {"text": "\ue006", "value": ["\ue006"], "id": "0.5691193199544842-1", "sessionId": "8f4be563de4f26ea0a91e555509ac6e5"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56127 "POST /session/8f4be563de4f26ea0a91e555509ac6e5/element/0.5691193199544842-1/value HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:56127/session/8f4be563de4f26ea0a91e555509ac6e5/source {"sessionId": "8f4be563de4f26ea0a91e555509ac6e5"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56127 "GET /session/8f4be563de4f26ea0a91e555509ac6e5/source HTTP/1.1" 200 57672
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:56127/session/8f4be563de4f26ea0a91e555509ac6e5/window {"sessionId": "8f4be563de4f26ea0a91e555509ac6e5"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56127 "DELETE /session/8f4be563de4f26ea0a91e555509ac6e5/window HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
